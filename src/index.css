@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scroll-behavior: smooth;
+  color-scheme: light dark;
+  @apply cursor-default select-none dark:bg-neutral-900 dark:text-neutral-100 overflow-hidden;
+}
