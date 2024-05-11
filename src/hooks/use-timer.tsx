@@ -35,12 +35,7 @@ function useTimer(isPlaying: boolean): [number[], number, () => void] {
     return () => clearInterval(interval);
   }, [isPlaying, timeInterval]);
 
-  const resetTimer = () => {
-    setTime([0, 0, 0, 0]);
-    setTimeInterval(0);
-  };
-
-  return [time, timeInterval, resetTimer];
+  return [time, timeInterval, () => setTimeInterval(0)];
 }
 
 export default useTimer;

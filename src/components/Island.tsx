@@ -4,7 +4,7 @@ import IslandBox from './IslandBox';
 import Music from './Music/Music';
 import Call from './Call/Call';
 import Ring from './Ring/Ring';
-import useTimer from '../hooks/useTimer';
+import useTimer from '../hooks/use-timer';
 
 function Island({
   status,
@@ -28,7 +28,7 @@ function Island({
       idle: { paddingBottom: 0, borderRadius: 100, width: 130, height: 35 },
       ring: { paddingBottom: 0, borderRadius: 100, width: 185, height: 35 },
       call: { paddingBottom: 60, borderRadius: 100, width: 260, height: 40 },
-      music: { paddingBottom: 128, borderRadius: 30, width: 260, height: 40 },
+      music: { paddingBottom: 125, borderRadius: 30, width: 260, height: 40 },
       default: { paddingBottom: 0, borderRadius: 100, width: 180, height: 40 },
     };
     controls.start(controlStyles[status] || controlStyles.default);
