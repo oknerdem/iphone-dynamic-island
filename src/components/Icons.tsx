@@ -184,6 +184,7 @@ export const PauseIcon = ({
 export const BackwardIcon = () => {
   return (
     <svg
+      className='cursor-pointer'
       width='24'
       height='20'
       viewBox='0 0 37 20'
@@ -211,6 +212,7 @@ export const BackwardIcon = () => {
 export const ForwardIcon = () => {
   return (
     <svg
+      className='cursor-pointer'
       width='24'
       height='20'
       viewBox='0 0 35 19'
