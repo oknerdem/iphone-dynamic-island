@@ -14,15 +14,12 @@ function MusicTime({
         {time[1]}:{time[2]}
         {time[3]}
       </div>
-      <div
-        className={`w-[${timeInterval}rem] h-1 bg-orange-300 border-none absolute top-0 left-0`}
-      />
       <input
         type='range'
         min={0}
         max={200}
         value={timeInterval}
-        defaultValue={timeInterval}
+        readOnly
         className='border w-full accent-[#a060a9] appearance-none rounded-full h-1 bg-neutral-100 border-none'
       />
       <div className='font-mono'>
