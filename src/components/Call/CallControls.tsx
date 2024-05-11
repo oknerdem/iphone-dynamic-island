@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import CallAccept from './CallAccept';
-import CallDeny from './CallDeny';
+import CallAccept from '@/components/Call/CallAccept';
+import CallDeny from '@/components/Call/CallDeny';
 
 export default function CallControls({
   setStatus,

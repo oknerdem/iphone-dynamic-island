@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Island from './components/Island';
-import StatusSelection from './components/StatusSelection';
+import Island from '@/components/Island';
+import StatusSelection from '@/components/StatusSelection';
 
 function App() {
   const [status, setStatus] = useState('idle');

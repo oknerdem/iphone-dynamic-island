@@ -1,4 +1,9 @@
-import { BackwardIcon, ForwardIcon, PauseIcon, PlayIcon } from '../Icons';
+import {
+  BackwardIcon,
+  ForwardIcon,
+  PauseIcon,
+  PlayIcon,
+} from '@/components/Icons';
 
 function MusicControls({
   isPlaying,

@@ -1,5 +1,5 @@
-import ButtonStatus from './StatusButton';
-import { Status } from '../data/Status';
+import ButtonStatus from '@/components/StatusButton';
+import { Status } from '@/data/Status';
 
 function StatusSelection({
   setStatus,

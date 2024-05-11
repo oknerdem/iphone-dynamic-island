@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { RingMIcon } from '../Icons';
+import { RingMIcon } from '@/components/Icons';
 
 function Ring() {
   return (

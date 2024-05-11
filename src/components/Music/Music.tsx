@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import MusicName from './MusicName';
-import MusicTime from './MusicTime';
-import MusicControls from './MusicControls';
+import MusicName from '@/components/Music/MusicName';
+import MusicTime from '@/components/Music/MusicTime';
+import MusicControls from '@/components/Music/MusicControls';
 
 function Music({
   isPlaying,

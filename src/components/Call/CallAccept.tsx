@@ -1,4 +1,4 @@
-import { CallAcceptIcon } from '../Icons';
+import { CallAcceptIcon } from '@/components/Icons';
 
 export default function CallAccept() {
   return (

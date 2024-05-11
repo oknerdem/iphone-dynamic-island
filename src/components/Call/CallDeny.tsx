@@ -1,4 +1,4 @@
-import { CallDenyIcon } from '../Icons';
+import { CallDenyIcon } from '@/components/Icons';
 
 export default function CallDeny({
   setStatus,

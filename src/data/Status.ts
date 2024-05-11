@@ -1,4 +1,4 @@
-import { IdleIcon, RingIcon, CallIcon, MusicIcon } from '../components/Icons';
+import { IdleIcon, RingIcon, CallIcon, MusicIcon } from '@/components/Icons';
 
 export const Status = [
   {

@@ -1,5 +1,5 @@
-import Caller from './Caller';
-import CallControls from './CallControls';
+import Caller from '@/components/Call/Caller';
+import CallControls from '@/components/Call/CallControls';
 
 function Call({
   setStatus,

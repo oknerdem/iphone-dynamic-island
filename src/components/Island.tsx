@@ -1,10 +1,10 @@
 import { AnimatePresence, useAnimation } from 'framer-motion';
 import { useEffect, useState } from 'react';
-import IslandBox from './IslandBox';
-import Music from './Music/Music';
-import Call from './Call/Call';
-import Ring from './Ring/Ring';
-import useTimer from '../hooks/use-timer';
+import IslandBox from '@/components/IslandBox';
+import Music from '@/components/Music/Music';
+import Call from '@/components/Call/Call';
+import Ring from '@/components/Ring/Ring';
+import useTimer from '@/hooks/use-timer';
 
 function Island({
   status,
