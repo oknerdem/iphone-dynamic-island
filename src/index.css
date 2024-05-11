@@ -2,8 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'GeistMono';
+  src: url('../src/fonts/geist-mono/GeistMonoVF.woff2') format('woff2'),
+    url('../src/fonts/geist-mono/GeistMonoVF.woff') format('woff'),
+    url('../src/fonts/geist-mono/GeistMonoVF.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('../src/fonts/geist/GeistVF.woff2') format('woff2'),
+    url('../src/fonts/geist/GeistVF.woff') format('woff'),
+    url('../src/fonts/geist/GeistVF.ttf') format('truetype');
+}
+
 :root {
+  font-family: 'Geist', sans-serif;
   scroll-behavior: smooth;
   color-scheme: light dark;
   @apply cursor-default select-none dark:bg-neutral-900 dark:text-neutral-100 overflow-hidden;
+}
+
+.geist-mono {
+  font-family: 'GeistMono', monospace;
+}
+
+.geist {
+  font-family: 'Geist', sans-serif;
 }
