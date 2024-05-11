@@ -1,6 +1,11 @@
 import { IdleIcon, RingIcon, CallIcon, MusicIcon } from '@/components/Icons';
+import { StatusType } from '@/types/type';
 
-export const Status = [
+export const Status: {
+  id: string;
+  title: StatusType;
+  icon: () => JSX.Element;
+}[] = [
   {
     id: 'idle',
     title: 'idle',

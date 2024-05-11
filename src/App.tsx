@@ -1,9 +1,10 @@
 import { useState } from 'react';
+import { StatusType } from '@/types/type';
 import Island from '@/components/Island';
 import StatusSelection from '@/components/StatusSelection';
 
 function App() {
-  const [status, setStatus] = useState('idle');
+  const [status, setStatus] = useState<StatusType>('idle');
 
   return (
     <main className='min-h-screen h-full w-full p-8 flex flex-col items-start justify-start'>

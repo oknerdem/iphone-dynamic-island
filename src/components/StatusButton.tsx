@@ -1,10 +1,12 @@
+import { StatusType } from '@/types/type';
+
 function ButtonStatus({
   setStatus,
   status,
   Icon,
 }: {
-  setStatus: (status: string) => void;
-  status: string;
+  setStatus: React.Dispatch<React.SetStateAction<StatusType>>;
+  status: StatusType;
   Icon: () => JSX.Element;
 }) {
   return (

@@ -1,10 +1,11 @@
-import ButtonStatus from '@/components/StatusButton';
+import { StatusType } from '@/types/type';
 import { Status } from '@/data/Status';
+import ButtonStatus from '@/components/StatusButton';
 
 function StatusSelection({
   setStatus,
 }: {
-  setStatus: (status: string) => void;
+  setStatus: React.Dispatch<React.SetStateAction<StatusType>>;
 }) {
   return (
     <section className='grid grid-cols-4 gap-2'>

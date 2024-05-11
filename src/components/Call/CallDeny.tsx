@@ -1,9 +1,10 @@
 import { CallDenyIcon } from '@/components/Icons';
+import { StatusType } from '@/types/type';
 
 export default function CallDeny({
   setStatus,
 }: {
-  setStatus: React.Dispatch<React.SetStateAction<string>>;
+  setStatus: React.Dispatch<React.SetStateAction<StatusType>>;
 }) {
   return (
     <button

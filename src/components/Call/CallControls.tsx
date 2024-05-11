@@ -1,11 +1,12 @@
 import { motion } from 'framer-motion';
+import { StatusType } from '@/types/type';
 import CallAccept from '@/components/Call/CallAccept';
 import CallDeny from '@/components/Call/CallDeny';
 
 export default function CallControls({
   setStatus,
 }: {
-  setStatus: React.Dispatch<React.SetStateAction<string>>;
+  setStatus: React.Dispatch<React.SetStateAction<StatusType>>;
 }) {
   return (
     <motion.section
