@@ -13,7 +13,7 @@ export default function Caller() {
       }}
       transition={{ delay: 0.25, duration: 0.3 }}>
       <img
-        src='https://pbs.twimg.com/profile_images/1732422768426143744/--fHkk0R_400x400.jpg'
+        src='./alya.jpg'
         className='bg-neutral-600 rounded-full w-10 h-10 duration-200 hover:bg-neutral-700 mr-1 object-cover'
       />
       <section className='text-xs flex flex-col'>
