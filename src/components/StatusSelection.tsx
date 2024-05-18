@@ -10,7 +10,7 @@ function StatusSelection({
   currentStatus: StatusType;
 }) {
   return (
-    <section className='grid grid-cols-4 gap-2 text-sm'>
+    <section className='grid grid-cols-4 text-sm rounded-lg bg-neutral-100 dark:bg-neutral-800'>
       {Status.map((status) => (
         <ButtonStatus
           key={status.id}
