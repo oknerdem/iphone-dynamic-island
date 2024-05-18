@@ -4,22 +4,41 @@ export const IdleIcon = () => {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
+      viewBox='0 0 24 24'
       width='24'
       height='24'
-      viewBox='0 0 24 24'
-      fill='none'
-      stroke='currentColor'
-      strokeWidth='2'
-      strokeLinecap='round'
-      strokeLinejoin='round'
-      className='flex w-5 h-5 mx-auto dark:text-neutral-400 text-neutral-600 items-center justify-center'>
+      className='flex w-5 h-5 mx-auto dark:text-neutral-400 text-neutral-600 items-center justify-center'
+      fill='none'>
       <path
-        stroke='none'
-        d='M0 0h24v24H0z'
-        fill='none'
+        d='M13 2.04938C12.6711 2.01672 12.3375 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 11.3151 21.9311 10.6462 21.8 10'
+        stroke='currentColor'
+        stroke-width='1.5'
+        stroke-linecap='round'
+        strokeLinejoin='round'
       />
-      <path d='M12 9v12m-8 -8a8 8 0 0 0 16 0m1 0h-2m-14 0h-2' />
-      <path d='M12 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0' />
+      <path
+        d='M10 11H8.70711C8.25435 11 7.82014 10.8201 7.5 10.5M14 11H15.2929C15.7456 11 16.1799 10.8201 16.5 10.5'
+        stroke='currentColor'
+        stroke-width='1.5'
+        stroke-linecap='round'
+        strokeLinejoin='round'
+      />
+      <circle
+        cx='12'
+        cy='16'
+        r='2'
+        stroke='currentColor'
+        strokeWidth='1.5'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      />
+      <path
+        d='M17 2H19.9474C20.5675 2 20.8775 2 20.9601 2.20009C21.0427 2.40019 20.8317 2.64023 20.4098 3.1203L17.9846 5.8797C17.5627 6.35977 17.3517 6.59981 17.4343 6.79991C17.5169 7 17.8269 7 18.447 7H21'
+        stroke='currentColor'
+        strokeWidth='1.5'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      />
     </svg>
   );
 };
@@ -28,24 +47,25 @@ export const RingIcon = () => {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      width='24'
-      height='24'
       viewBox='0 0 24 24'
-      fill='none'
-      stroke='currentColor'
-      strokeWidth='2'
-      strokeLinecap='round'
-      strokeLinejoin='round'
-      className='flex w-5 h-5 mx-auto dark:text-neutral-400 text-neutral-600 items-center justify-center'>
+      width={24}
+      height={24}
+      className='flex w-5 h-5 mx-auto dark:text-neutral-400 text-neutral-600 items-center justify-center'
+      fill={'none'}>
       <path
-        stroke='none'
-        d='M0 0h24v24H0z'
-        fill='none'
+        d='M2.52992 14.394C2.31727 15.7471 3.268 16.6862 4.43205 17.1542C8.89481 18.9486 15.1052 18.9486 19.5679 17.1542C20.732 16.6862 21.6827 15.7471 21.4701 14.394C21.3394 13.5625 20.6932 12.8701 20.2144 12.194C19.5873 11.2975 19.525 10.3197 19.5249 9.27941C19.5249 5.2591 16.1559 2 12 2C7.84413 2 4.47513 5.2591 4.47513 9.27941C4.47503 10.3197 4.41272 11.2975 3.78561 12.194C3.30684 12.8701 2.66061 13.5625 2.52992 14.394Z'
+        stroke='currentColor'
+        strokeWidth='1.5'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
-      <path d='M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6' />
-      <path d='M9 17v1a3 3 0 0 0 6 0v-1' />
-      <path d='M21 6.727a11.05 11.05 0 0 0 -2.794 -3.727' />
-      <path d='M3 6.727a11.05 11.05 0 0 1 2.792 -3.727' />
+      <path
+        d='M9 21C9.79613 21.6219 10.8475 22 12 22C13.1525 22 14.2039 21.6219 15 21'
+        stroke='currentColor'
+        strokeWidth='1.5'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      />
     </svg>
   );
 };
@@ -54,23 +74,23 @@ export const CallIcon = () => {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
+      viewBox='0 0 24 24'
       width='24'
       height='24'
-      viewBox='0 0 24 24'
-      fill='none'
-      stroke='currentColor'
-      strokeWidth='2'
-      strokeLinecap='round'
-      strokeLinejoin='round'
-      className='flex w-5 h-5 mx-auto dark:text-neutral-400 text-neutral-600 items-center justify-center'>
+      className='flex w-5 h-5 mx-auto dark:text-neutral-400 text-neutral-600 items-center justify-center'
+      fill='none'>
       <path
-        stroke='none'
-        d='M0 0h24v24H0z'
-        fill='none'
+        d='M3.77762 11.9424C2.8296 10.2893 2.37185 8.93948 2.09584 7.57121C1.68762 5.54758 2.62181 3.57081 4.16938 2.30947C4.82345 1.77638 5.57323 1.95852 5.96 2.6524L6.83318 4.21891C7.52529 5.46057 7.87134 6.08139 7.8027 6.73959C7.73407 7.39779 7.26737 7.93386 6.33397 9.00601L3.77762 11.9424ZM3.77762 11.9424C5.69651 15.2883 8.70784 18.3013 12.0576 20.2224M12.0576 20.2224C13.7107 21.1704 15.0605 21.6282 16.4288 21.9042C18.4524 22.3124 20.4292 21.3782 21.6905 19.8306C22.2236 19.1766 22.0415 18.4268 21.3476 18.04L19.7811 17.1668C18.5394 16.4747 17.9186 16.1287 17.2604 16.1973C16.6022 16.2659 16.0661 16.7326 14.994 17.666L12.0576 20.2224Z'
+        stroke='currentColor'
+        strokeWidth='1.5'
+        strokeLinejoin='round'
       />
-      <path d='M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2' />
-      <path d='M15 7a2 2 0 0 1 2 2' />
-      <path d='M15 3a6 6 0 0 1 6 6' />
+      <path
+        d='M14 6.83185C15.4232 7.43624 16.5638 8.57677 17.1682 10M14.654 2C18.1912 3.02076 20.9791 5.80852 22 9.34563'
+        stroke='currentColor'
+        strokeWidth='1.5'
+        strokeLinecap='round'
+      />
     </svg>
   );
 };
@@ -79,24 +99,46 @@ export const MusicIcon = () => {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      width='24'
-      height='24'
       viewBox='0 0 24 24'
-      fill='none'
-      stroke='currentColor'
-      strokeWidth='2'
-      strokeLinecap='round'
-      strokeLinejoin='round'
-      className='flex w-5 h-5 mx-auto dark:text-neutral-400 text-neutral-600 items-center justify-center'>
+      width={24}
+      height={24}
+      className='flex w-5 h-5 mx-auto dark:text-neutral-400 text-neutral-600 items-center justify-center'
+      fill={'none'}>
       <path
-        stroke='none'
-        d='M0 0h24v24H0z'
-        fill='none'
+        d='M7 9.5C7 10.8807 5.88071 12 4.5 12C3.11929 12 2 10.8807 2 9.5C2 8.11929 3.11929 7 4.5 7C5.88071 7 7 8.11929 7 9.5ZM7 9.5V2C7.33333 2.5 7.6 4.6 10 5'
+        stroke='currentColor'
+        strokeWidth='1.5'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
-      <path d='M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0' />
-      <path d='M13 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0' />
-      <path d='M9 17v-13h10v13' />
-      <path d='M9 8h10' />
+      <circle
+        cx='10.5'
+        cy='19.5'
+        r='2.5'
+        stroke='currentColor'
+        strokeWidth='1.5'
+      />
+      <circle
+        cx='20'
+        cy='18'
+        r='2'
+        stroke='currentColor'
+        strokeWidth='1.5'
+      />
+      <path
+        d='M13 19.5L13 11C13 10.09 13 9.63502 13.2466 9.35248C13.4932 9.06993 13.9938 9.00163 14.9949 8.86504C18.0085 8.45385 20.2013 7.19797 21.3696 6.42937C21.6498 6.24509 21.7898 6.15295 21.8949 6.20961C22 6.26627 22 6.43179 22 6.76283V17.9259'
+        stroke='currentColor'
+        strokeWidth='1.5'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      />
+      <path
+        d='M13 13C17.8 13 21 10.6667 22 10'
+        stroke='currentColor'
+        strokeWidth='1.5'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      />
     </svg>
   );
 };
