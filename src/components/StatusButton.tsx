@@ -4,14 +4,22 @@ function ButtonStatus({
   setStatus,
   status,
   Icon,
+  currentStatus,
 }: {
   setStatus: React.Dispatch<React.SetStateAction<StatusType>>;
   status: StatusType;
-  Icon: () => JSX.Element;
+  Icon: React.FC;
+  currentStatus: StatusType;
 }) {
-  return (
+  return currentStatus === status ? (
     <button
-      className='bg-neutral-100 text-neutral-900 hover:bg-neutral-300 active:bg-neutral-200 rounded-xl duration-150 w-14 py-1.5 dark:bg-neutral-950 dark:text-neutral-100 dark:hover:bg-neutral-950/40 dark:active:bg-neutral-950/80'
+      className='bg-neutral-100 text-neutral-900 hover:bg-neutral-200 rounded-lg duration-150 px-3 py-1.5 dark:bg-neutral-950 dark:text-neutral-100 dark:hover:bg-neutral-950/40 first-letter:uppercase'
+      onClick={() => setStatus(status)}>
+      <Icon />
+    </button>
+  ) : (
+    <button
+      className='text-neutral-500 hover:bg-neutral-200 rounded-lg duration-150 px-3 py-1.5 dark:text-neutral-600 dark:hover:bg-neutral-950/40 first-letter:uppercase'
       onClick={() => setStatus(status)}>
       <Icon />
     </button>

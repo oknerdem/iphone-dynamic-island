@@ -13,12 +13,12 @@ export default function Caller() {
       }}
       transition={{ delay: 0.25, duration: 0.3 }}>
       <img
-        src='./alya.jpg'
+        src='./jim.jpg'
         className='bg-neutral-600 rounded-full w-10 h-10 duration-200 hover:bg-neutral-700 mr-1 object-cover'
       />
       <section className='text-xs flex flex-col'>
         <div className='text-neutral-600'>iPhone</div>
-        <div className='text-neutral-200 font-medium'>Alya Vural</div>
+        <div className='text-neutral-200 font-medium'>Jim Carrey</div>
       </section>
     </motion.section>
   );

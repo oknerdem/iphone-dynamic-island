@@ -26,11 +26,11 @@ function Island({
 
   useEffect(() => {
     const controlStyles: Record<string, Record<string, number>> = {
-      idle: { paddingBottom: 0, width: 130, height: 35 },
-      ring: { paddingBottom: 0, width: 185, height: 35 },
+      idle: { paddingBottom: 0, width: 120, height: 30 },
+      ring: { paddingBottom: 0, width: 165, height: 30 },
       call: { paddingBottom: 60, width: 260, height: 40 },
       music: { paddingBottom: 125, width: 260, height: 40 },
-      default: { paddingBottom: 0, width: 130, height: 35 },
+      default: { paddingBottom: 0, width: 120, height: 30 },
     };
     controls.start(controlStyles[status] || controlStyles.default);
   }, [status, controls]);
